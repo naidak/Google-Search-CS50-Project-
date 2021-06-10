@@ -1,0 +1,155 @@
+* {
+    font-family: Arial;
+}
+
+.navbar-search {
+    list-style: none;
+    display: inline-flex;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+nav {
+    position: relative;
+    text-align: right;
+}
+
+.nav-search {
+    margin-bottom: 150px;
+}
+
+.navbar-list {
+    margin: 10px;
+}
+
+.g-image-search:hover,
+.g-advanced-search:hover,
+.g-search:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.g-image-search,
+.g-advanced-search {
+    color: rgba(0, 0, 0, 0.733);
+    text-decoration: none;
+}
+
+.input-text {
+    margin: 14px;
+    margin-top: 1px;
+    font: 16px arial, sans-serif;
+    line-height: 50px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #dfe1e5;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    border-radius: 25px;
+    width: 600px;
+    position: relative;
+    left: 30%;
+    padding: 0 15px;
+}
+
+.search-form {
+    text-align: center;
+    align-items: center;
+    background: #fff;
+    margin: auto;
+}
+
+.heading-one {
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.btn-style {
+    width: 130px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: #f4f4f5;
+    color: rgb(48, 47, 47);
+    font-family: Arial;
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-style:hover {
+    border: 1px solid rgb(202, 202, 202);
+    cursor: pointer;
+}
+
+.g-search {
+    position: relative;
+    text-align: right;
+    display: inline-flex;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.733);
+    text-decoration: none;
+}
+
+.input-text-advanced {
+    width: 500px;
+    line-height: 20px;
+    margin: 20px;
+}
+
+.title {
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.table-advanced {
+    margin-left: 20px;
+}
+
+.advance-button {
+    float: right;
+    margin-right: 20px;
+    background-color: cornflowerblue;
+    color: #ffff;
+    border: 1px solid rgb(93, 139, 224);
+    outline: none;
+    height: 30px;
+    width: 130px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-center {
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+.images-text {
+    margin-top: -50px;
+    color: cornflowerblue;
+    text-align: right;
+    margin-right: 42%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.input-text:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
